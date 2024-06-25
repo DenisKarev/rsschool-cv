@@ -6,10 +6,10 @@
 - ### [GitHub](https://github.com/DenisKarev "github link")
 - ### [LinkedIn](https://www.linkedin.com/in/denis-karev-590764264/ "Linkedin link")
 - ### [Telegram](https://t.me/Goofy_adun "TGram link")
-## 
 ---
 ## Briefly about me
-###
+### Almost all my life i had jobs related to computers, so i, finally, started my education path in programming.
+### I have open mind, i hope. Have high motivation and desire for leaning.
 ---
 ## Skills
 - ### Html5 (a little)
@@ -24,7 +24,12 @@
 console.log('Hello, World!');
 ```
 ## Education
-<!-- - GeekBrains frontend javascript (Vue) course -->
+- ### School (elementary and secondary)
+- ### no high School education (like university)
+## Courses
+- ### gb fe js (vue)
+- ### self studying most of the time
+---
 ## Languages
  - ### Russian - native
  - ### English between C1 and C2 (efset.org) but i think they overestimate me
