@@ -52,13 +52,10 @@ img {
 }
 
 .header {
-  line-height: 3rem;
-  background: var(--secondary);
-}
-
-.nav {
   position: sticky;
   top: 0;
+  line-height: 3rem;
+  background: var(--secondary);
 }
 
 .nav_list {
@@ -88,6 +85,7 @@ img {
   background-color: var(--secondary);
   min-width: 21rem;
   font-weight: 200;
+  padding-bottom: 20rem;
 }
 
 .contact,
