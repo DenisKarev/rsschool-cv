@@ -1,13 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/gfav.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <title>&quot;CV#2: HTML, CSS &amp; Git Basics&quot;</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/gfav.ico" type="image/x-icon">
+  <!-- <link rel="preload" type="font/woff" as="font" href="./fonts/Poppins-VariableFont_wght.otf"> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>&quot;CV#2: HTML, CSS &amp; Git Basics&quot;</title>
 </head>
+
 <body>
-    <main><h1>Hello, Word! And World too!</h1></main>
+  <!-- <div class="wrapper"> -->
+  <header class="header centainer" id="id-home"><!-- center + container -->
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_item"><a class="nav_link" href="#id-home">Home</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-conts">Contact</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-about">About</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-skills">Skills</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-code">Code</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-projs">Projects</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-educs">Education</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-langs">Languages</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-creds">Credits</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main centainer" id="id-creds">
+
+    <section class="left-section">
+      <h2 class="left-section-photo">
+        <img src="./img/ava.svg" alt="photograph of Denis Karev" height="500" width="420" title="Summer of 2023">
+      </h2>
+      <section class="contact" id="id-conts">
+        <h3 class="left-section-title">Contact</h3>
+        <ul class="contact-list">
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="tel:+123(45)678-90-ab">
+              <img src="./img/svg/call_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Phone icon" height="24" width="24">
+              <p>+123 (45) 678-90-ab</p>
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <div>
+              <a class="contact-list-item-link" href="mailto:have.no@public.email">
+                <img src="./img/svg/mail_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Email message icon" height="24" width="24">
+                <p>no.public@email.exposed</p>
+              </a>
+            </div>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="https://www.linkedin.com/in/denis-karev-590764264/" target="_blank" rel="noreferrer noopener" title="earth.google.com">
+              <img src="./img/svg/linkedin_icon.svg" alt="LinkedIn icon" height="24" width="24">
+              <p>on LinkedIn</p>
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="https://earth.google.com/web/" target="_blank" rel="noreferrer noopener" title="earth.google.com">
+              <img src="./img/svg/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Location icon" height="24" width="24">
+              <p>Possible location</p>
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="#DiscordContact" title="DiscordContact">
+              <img src="./img/svg/chat_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Chat icon" height="24" width="24">
+              <p>Discord</p>
+            </a>
+          </li>
+
+        </ul>
+      </section>
+      <section class="education" id="id-educs">
+        <h3 class="left-section-title">Education</h3>
+        <ul>
+          <li>
+            <p>Elementary School</p>
+          </li>
+          <li>
+            <p>Secondary School</p>
+          </li>
+          <li>
+            <p>Self study most of my life</p>
+          </li>
+        </ul>
+        <h4 class="courses-title">Courses</h4>
+        <p><small>GeekBrains FrontEnd JS (Vue)</small></p>
+      </section>
+      <section class="skills" id="id-skills">
+        <h3 class="left-section-title">Skills</h3>
+        <ul class="skills-list">
+          <li class="skills-list-item">Html5</li>
+          <li class="skills-list-item">Css3|scss</li>
+          <li class="skills-list-item">JavaScript</li>
+          <li class="skills-list-item">Git|GitHub</li>
+          <li class="skills-list-item">Softskills</li>
+        </ul>
+      </section>
+    </section>
+    <section class="right-section">
+      <section class="ab" id="id-about">
+        <h1 class="title">Denis Karev</h1>
+        <p class="self_description">Future Frontend Engineer</p>
+        <!-- <h2>Briefly about me</h2> -->
+        <p>Almost all my life i had jobs related to computers, so i, finally,
+          started my education path in programming.</p>
+        <p>I have open mind, i hope. Have high motivation and desire for leaning.</p>
+      </section>
+    </section>
+  </main>
+  <footer class="footer centainer">&copy;2024</footer>
+  <!-- </div> -->
 </body>
+
 </html>
