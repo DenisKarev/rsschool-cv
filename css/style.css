@@ -81,6 +81,11 @@ img {
   display: flex;
 }
 
+.anchor {
+  position: relative;
+  top: -3rem;
+}
+
 .left-section {
   background-color: var(--secondary);
   min-width: 21rem;
