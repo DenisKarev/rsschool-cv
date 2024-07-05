@@ -88,7 +88,7 @@ img {
 
 .left-section {
   background-color: var(--secondary);
-  min-width: 21rem;
+  min-width: 19.5rem;
   font-weight: 200;
   padding-bottom: 20rem;
 }
@@ -129,6 +129,7 @@ img {
 
 .right-section {
   margin-left: 4rem;
+  margin-right: 1rem;
 }
 
 .title {
@@ -139,7 +140,7 @@ img {
 }
 
 .self_description {
-  line-height: 1.8;
+  /* line-height: 1.8; */
   font-size: 1.5rem;
   font-weight: 200;
 }
