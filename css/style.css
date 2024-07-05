@@ -1,4 +1,4 @@
-@import "./css/modern-normalize.min.css";
+@import "./modern-normalize.min.css";
 
 @font-face {
   font-family: "Poppins";
@@ -128,8 +128,8 @@ img {
 }
 
 .right-section {
-  margin-left: 4rem;
-  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .title {
@@ -141,14 +141,25 @@ img {
 
 .self-description {
   font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.self-description-title {
+  font-size: 1.5rem;
   font-weight: 200;
 }
 
+.self-description-text-container {
+  margin-top: 2rem;
+}
+
 .self-description-text {
-  /* line-height: 1.8; */
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  font-weight: 100;
+  line-height: 1.2;
+  text-indent: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 200;
+  text-align: justify;
 }
 
 .footer {
