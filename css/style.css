@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Poppins";
   font-display: swap;
-  src: url("./fonts/Poppins-VariableFont_wght.otf") format("woff2");
+  src: url("../fonts/Poppins-VariableFont_wght.otf") format("woff2");
 }
 
 ul,
@@ -139,10 +139,16 @@ img {
   margin-top: 6rem;
 }
 
-.self_description {
-  /* line-height: 1.8; */
+.self-description {
   font-size: 1.5rem;
   font-weight: 200;
+}
+
+.self-description-text {
+  /* line-height: 1.8; */
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 .footer {
