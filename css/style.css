@@ -56,6 +56,7 @@ img {
   top: 0;
   line-height: 3rem;
   background: var(--secondary);
+  z-index: 2;
 }
 
 .nav_list {
@@ -70,8 +71,7 @@ img {
 }
 
 .nav_link {
-  /* display: inline-block; */
-  line-height: 3rem;
+  /* line-height: 3rem; */
   text-decoration: none;
   color: black;
   padding: 0.6rem;
@@ -90,7 +90,7 @@ img {
   background-color: var(--secondary);
   min-width: 19.5rem;
   font-weight: 200;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
 }
 
 .contact,
@@ -98,6 +98,11 @@ img {
 .skills {
   margin-left: 3rem;
   line-height: 2;
+}
+
+.left-section-photo {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+  z-index: 1;
 }
 
 .left-section-title {
@@ -128,8 +133,9 @@ img {
 }
 
 .right-section {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  font-weight: 200;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .title {
@@ -139,10 +145,10 @@ img {
   margin-top: 6rem;
 }
 
-.self-description {
+/* .self-description {
   font-size: 1.5rem;
   font-weight: 300;
-}
+} */
 
 .self-description-title {
   font-size: 1.5rem;
@@ -157,18 +163,24 @@ img {
   line-height: 1.2;
   text-indent: 2rem;
   margin-top: 0.5rem;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   font-weight: 200;
   text-align: justify;
 }
 
-.footer {
-  /* background-color: chocolate; */
-  line-height: 1.8;
-  padding: 0.6rem;
+.projects li {
+  font-size: 1rem;
 }
 
-span {
-  position: absolute;
-  left: 220px;
+.footer {
+  display: flex;
+  background-color: var(--secondary);
+  line-height: 1.8;
+}
+
+.footer-link {
+  margin-left: 0.4rem;
+  text-decoration: none;
+  padding: 0.6rem;
+  color: var(--primary);
 }
