@@ -164,7 +164,9 @@ img {
 
 .about,
 .projects,
-.code {
+.code,
+.languages,
+.experience {
   margin-right: 4rem;
 }
 
@@ -186,6 +188,13 @@ img {
   margin-top: 0.5rem;
   font-weight: 200;
   text-align: justify;
+}
+
+.projects-list-item,
+.language-item,
+.experience-item {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .footer {
