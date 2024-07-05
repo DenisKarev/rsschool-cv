@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="./img/gfav.ico" type="image/x-icon">
   <!-- <link rel="preload" type="font/woff" as="font" href="./fonts/Poppins-VariableFont_wght.otf"> -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="./css/atom-one-dark.min.css"> -->
   <title>&quot;CV#2: HTML, CSS &amp; Git Basics&quot;</title>
 </head>
 
@@ -31,14 +32,14 @@
   <main class="main centainer">
     <section class="left-section">
       <div class="anchor" id="id-home"></div>
-      <h2 class="left-section-photo">
-        <img src="./img/profile_picture.png" alt="Photography of Denis Karev" height="auto" width="390"
+      <h1 class="left-section-photo">
+        <img src="./img/profile_picture.png" alt="Photography of Denis Karev" height="501" width="390"
           title="the Summer of 2023">
-      </h2>
+      </h1>
 
       <section class="contact">
         <div class="anchor" id="id-conts"></div>
-        <h3 class="left-section-title">Contact</h3>
+        <h2 class="left-section-title">Contact</h2>
         <ul class="contact-list">
           <li class="contact-list-item">
             <a class="contact-list-item-link" href="tel:+123(45)678-90-ab">
@@ -88,7 +89,7 @@
 
       <section class="education">
         <div class="anchor" id="id-educs"></div>
-        <h3 class="left-section-title">Education</h3>
+        <h2 class="left-section-title">Education</h2>
         <ul>
           <li>
             <p>Elementary School</p>
@@ -100,13 +101,13 @@
             <p>Self study most of my life</p>
           </li>
         </ul>
-        <h4 class="courses-title">Courses</h4>
+        <h3 class="courses-title">Courses</h3>
         <p><small>GeekBrains FrontEnd JS (Vue)</small></p>
       </section>
 
       <section class="skills">
         <div class="anchor" id="id-skills"></div>
-        <h3 class="left-section-title">Skills</h3>
+        <h2 class="left-section-title">Skills</h2>
         <ul class="skills-list">
           <li class="skills-list-item">Html5</li>
           <li class="skills-list-item">Css3|scss</li>
@@ -119,35 +120,30 @@
 
     <!-- Right Section -->
     <section class="right-section">
+      <h2 class="title">Denis Karev</h2>
       <div class="anchor" id="id-about"></div>
-      <section class="about">
-        <h1 class="title">Denis Karev</h1>
-        <article>
-          <h3 class="self-description-title">Future Frontend Engineer</h3>
-          <!-- <h2>Briefly about me</h2> -->
-          <div class="self-description-text-container">
-            <p class="self-description-text">Almost all my life i had jobs related to computers, so, i finally,
-              started my education path in programming almost two years ago.</p>
-            <p class="self-description-text">Skilled enought to understand how computer works at low level, and
-              have some proficiency in searching for iformation that helps me understand what happens on earlier
-              mentioned computer(s)</p>
-            <p class="self-description-text">I have open mind, i hope. Have motivation and desire for leaning.</p>
-          </div>
-        </article>
-      </section>
+      <article class="about">
+        <h3 class="self-description-title">Future Frontend Engineer</h3>
+        <!-- <h2>Briefly about me</h2> -->
+        <div class="self-description-text-container">
+          <p class="self-description-text">Almost all my life i had jobs related to computers, so, i finally,
+            started my education path in programming almost two years ago.</p>
+          <p class="self-description-text">Skilled enought to understand how computer works at low level, and
+            have some proficiency in searching for iformation that helps me understand what happens on earlier
+            mentioned computer(s)</p>
+          <p class="self-description-text">I have open mind, i hope. Have motivation and desire for leaning.</p>
+        </div>
+      </article>
 
       <section class="projects">
         <div class="anchor" id="id-projs"></div>
         <h3 class="left-section-title">Projects</h3>
         <ul>
-          <li>
-            <p>Elementary School</p>
-          </li>
-          <li>
-            <p>Secondary School</p>
-          </li>
-          <li>
-            <p>Self study most of my life</p>
+          <li style="list-style-type: disc; list-style-position: inside;">
+            <a href="https://deniskarev-vue-js.onrender.com" target="_blank" rel="noreferrer noopener">
+              Vue-siteproject</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/DenisKarev/Vue.js/tree/render" target="_blank" rel="noreferrer noopener">src</a>
           </li>
         </ul>
       </section>
@@ -155,31 +151,35 @@
       <section class="code">
         <div class="anchor" id="id-code"></div>
         <h3 class="left-section-title">Code</h3>
-        <ul>
-          <li>
-            <p>Elementary School</p>
-          </li>
-          <li>
-            <p>Secondary School</p>
-          </li>
-          <li>
-            <p>Self study most of my life</p>
-          </li>
-        </ul>
+        <pre class="mycode"><code class="language-javascript">
+  function collinearity( x1,y1, x2,y2 ) {
+    if (x1 === 0) {
+      if (y1 === 0) return true;
+      return x2 === 0 ? true : false;
+    }
+    if (x2 === 0) {
+      if (y2 ===0) return true;
+      return false;
+    }
+    if (y2 === 0) return y1 === 0 ? true : false;
+    return (x1 / y1) === (x2 / y2) ? true : false;
+  }
+        </code></pre>
       </section>
 
-      <section class="langiages">
+      <section class="languages">
         <div class="anchor" id="id-langs"></div>
         <h3 class="left-section-title">Languages</h3>
         <ul>
           <li>
-            <p>Elementary School</p>
+            <p><strong>Russian:</strong> Native</p>
           </li>
           <li>
-            <p>Secondary School</p>
+            <p><strong>Belorussian:</strong> ~Native</p>
           </li>
           <li>
-            <p>Self study most of my life</p>
+            <p><strong>English:</strong> between C1 and C2 <a href="https://cert.efset.org/iNtydG" target="_blank"
+              rel="noreferrer noopener" title="but i think they overestimated me">efset.org</a></p>
           </li>
         </ul>
       </section>
@@ -190,6 +190,7 @@
     <a class="footer-link" href="https://github.com/DenisKarev">&copy; 2024 Denis Karev</a>
   </footer>
   <!-- </div> -->
+  <script src="./js/highlight.min.js" defer></script>
 </body>
 
 </html>

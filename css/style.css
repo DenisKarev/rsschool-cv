@@ -1,4 +1,5 @@
 @import "./modern-normalize.min.css";
+@import "./atom-one-dark.min.css";
 
 @font-face {
   font-family: "Poppins";
@@ -14,6 +15,7 @@ ol {
 :root {
   --primary: black;
   --secondary: #ffbc59;
+  --tetriary: orangered;
   /* --h1: 42px; */
 }
 
@@ -26,6 +28,8 @@ html {
   font-size: 20px;
   scroll-behavior: smooth;
   height: 100%;
+  line-height: 1.2;
+  font-weight: 300;
 }
 
 body {
@@ -61,8 +65,9 @@ img {
 
 .nav_list {
   display: flex;
-  gap: 0.8rem;
-  justify-content: space-between;
+  gap: 0.2rem;
+  justify-content: flex-end;
+  padding: 0 0.2rem;
 }
 
 .nav_item {
@@ -75,10 +80,16 @@ img {
   text-decoration: none;
   color: black;
   padding: 0.6rem;
+  transition: 0.2s ease-in-out;
+}
+
+.nav_link:hover {
+  background-color: var(--tetriary);
 }
 
 .main {
   display: flex;
+  border-right: 1px dashed var(--secondary);
 }
 
 .anchor {
@@ -122,6 +133,12 @@ img {
   align-items: center;
   text-decoration: none;
   color: var(--primary);
+  transition: 0.2s ease-in-out;
+  padding: 0 0.4rem;
+}
+
+.contact-list-item-link:hover {
+  background-color: var(--tetriary);
 }
 
 .skills-list-item {
@@ -135,7 +152,7 @@ img {
 .right-section {
   font-weight: 200;
   margin-left: 4rem;
-  margin-right: 4rem;
+  /* margin-right: 4rem; */
 }
 
 .title {
@@ -145,10 +162,15 @@ img {
   margin-top: 6rem;
 }
 
-/* .self-description {
-  font-size: 1.5rem;
-  font-weight: 300;
-} */
+.about,
+.projects,
+.code {
+  margin-right: 4rem;
+}
+
+.mycode {
+  font-size: 0.8rem;
+}
 
 .self-description-title {
   font-size: 1.5rem;
@@ -160,27 +182,27 @@ img {
 }
 
 .self-description-text {
-  line-height: 1.2;
   text-indent: 2rem;
   margin-top: 0.5rem;
-  /* font-size: 0.9rem; */
   font-weight: 200;
   text-align: justify;
-}
-
-.projects li {
-  font-size: 1rem;
 }
 
 .footer {
   display: flex;
   background-color: var(--secondary);
-  line-height: 1.8;
+  padding: 0.6rem;
 }
 
 .footer-link {
-  margin-left: 0.4rem;
+  padding: 0 0.6rem;
   text-decoration: none;
-  padding: 0.6rem;
+  line-height: 1.8;
   color: var(--primary);
+  transition: 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
 }
