@@ -1,13 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/gfav.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <title>&quot;CV#2: HTML, CSS &amp; Git Basics&quot;</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/gfav.ico" type="image/x-icon">
+  <!-- <link rel="preload" type="font/woff" as="font" href="./fonts/Poppins-VariableFont_wght.otf"> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="./css/atom-one-dark.min.css"> -->
+  <title>&quot;CV#2: HTML, CSS &amp; Git Basics&quot;</title>
 </head>
+
 <body>
-    <main><h1>Hello, Word! And World too!</h1></main>
+  <!-- <div class="wrapper"> -->
+  <header class="header centainer"><!-- center + container -->
+    <!-- <div class="anchor" id="id-top"></div> -->
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_item"><a class="nav_link" href="#id-home">Home</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-conts">Contact</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-about">About</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-skills">Skills</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-code">Code</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-projs">Projects</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-educs">Education</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-langs">Languages</a></li>
+        <li class="nav_item"><a class="nav_link" href="#id-pastj">Exprience</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main centainer">
+    <section class="left-section">
+      <div class="anchor" id="id-home"></div>
+      <h1 class="left-section-photo">
+        <img src="./img/profile_picture.png" alt="Photography of Denis Karev" height="501" width="390"
+          title="the Summer of 2023">
+      </h1>
+
+      <section class="contact">
+        <div class="anchor" id="id-conts"></div>
+        <h2 class="left-section-title">Contact</h2>
+        <ul class="contact-list">
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="tel:+123(45)678-90-ab">
+              <img src="./img/svg/call_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Phone icon" height="24" width="24">
+              <p>+123 (45) 678-90-ab</p>
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <div>
+              <a class="contact-list-item-link" href="mailto:have.no@public.email">
+                <img src="./img/svg/mail_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Email message icon" height="24"
+                  width="24">
+                <p>no.email@at.all</p>
+              </a>
+            </div>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="https://www.linkedin.com/in/denis-karev-590764264/" target="_blank"
+              rel="noreferrer noopener" title="earth.google.com">
+              <img src="./img/svg/linkedin_icon.svg" alt="LinkedIn icon" height="24" width="24">
+              <p>LinkedIn profile</p>
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="https://earth.google.com/web/" target="_blank"
+              rel="noreferrer noopener" title="earth.google.com">
+              <img src="./img/svg/location_on_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Location icon" height="24"
+                width="24">
+              <p>Possible location</p>
+            </a>
+          </li>
+          <li class="contact-list-item">
+            <p class="contact-list-item-link" title="Discord Contact Name">
+              <img src="./img/svg/discord-icon.svg" alt="Discord icon" height="24" width="24">
+              Discord: Denis.k
+            </p>
+          </li>
+          <li class="contact-list-item">
+            <a class="contact-list-item-link" href="https://github.com/deniskarev" target="_blank"
+              rel="noreferrer noopener" title="GitHub.com">
+              <img src="./img/svg/github-mark.svg" alt="GitHub icon" height="24" width="24">
+              <p>GitHub.com</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="education">
+        <div class="anchor" id="id-educs"></div>
+        <h2 class="left-section-title">Education</h2>
+        <ul>
+          <li>
+            <p>Elementary School</p>
+          </li>
+          <li>
+            <p>Secondary School</p>
+          </li>
+          <li>
+            <p>Self study most of my life</p>
+          </li>
+        </ul>
+        <h3 class="courses-title">Courses</h3>
+        <p><small>GeekBrains FrontEnd JS (Vue)</small></p>
+      </section>
+
+      <section class="skills">
+        <div class="anchor" id="id-skills"></div>
+        <h2 class="left-section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-list-item">
+            <p>Html5</p><span class="skills-list-dots">●●●●○○</span>
+          </li>
+          <li class="skills-list-item">
+            <p>Css3|scss</p><span class="skills-list-dots">●●●○○○</span>
+          </li>
+          <li class="skills-list-item">JavaScript<span class="skills-list-dots">●●○○○○</span></li>
+          <li class="skills-list-item">Git|GitHub<span class="skills-list-dots">●●○○○○</span></li>
+          <li class="skills-list-item">
+            <details class="details-soft">
+              <summary>Softskills</summary>
+              <ul>
+                <li class="skills-list-item details-soft-list-item">
+                  <p>Organized</p>
+                  <span class="skills-list-dots">●●●●○</span>
+                </li>
+                <li class="skills-list-item details-soft-list-item">
+                  <p>Communication</p>
+                  <span class="skills-list-dots">●●○○○</span>
+                </li>
+                <li class="skills-list-item details-soft-list-item">
+                  <p>Honest</p>
+                  <span class="skills-list-dots">●●●○○</span>
+                </li>
+                <li class="skills-list-item details-soft-list-item">
+                  <p>Multitask</p>
+                  <span class="skills-list-dots">●●○○○</span>
+                </li>
+                <li class="skills-list-item details-soft-list-item">
+                  <p>Stress <br><span>resistant</span></p>
+
+                  <span class="skills-list-dots stress">●●○○○</span>
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- Right Section -->
+    <section class="right-section">
+      <h2 class="title">Denis Karev</h2>
+      <div class="anchor-about" id="id-about"></div>
+      <article class="about">
+        <h3 class="self-description-title">Future Frontend Engineer</h3>
+        <!-- <h2>Briefly about me</h2> -->
+        <div class="self-description-text-container">
+          <p class="self-description-text">Almost all my life i had jobs related to computers, so, i finally,
+            started my education path in programming almost two years ago.</p>
+          <p class="self-description-text">Skilled enought to understand how computer works at relatively low level, and
+            have some proficiency in searching for iformation that helps me understand what happens on earlier
+            mentioned computer(s)</p>
+          <p class="self-description-text">I have open mind, i hope. Have motivation and desire for leaning.</p>
+        </div>
+      </article>
+
+      <section class="projects">
+        <div class="anchor" id="id-projs"></div>
+        <h3 class="left-section-title">Projects</h3>
+        <ul>
+          <li class="projects-list-item">Vue-site project&nbsp;&nbsp;&nbsp;
+            <a class="right-section-link" href="https://deniskarev-vue-js.onrender.com" target="_blank"
+              rel="noreferrer noopener">
+              deploy</a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="right-section-link" href="https://github.com/DenisKarev/Vue.js/tree/render" target="_blank"
+              rel="noreferrer noopener">src</a>
+          </li>
+          <li class="projects-list-item">TBD</li>
+        </ul>
+      </section>
+
+      <section class="code">
+        <div class="anchor" id="id-code"></div>
+        <h3 class="left-section-title">Code</h3>
+        <pre class="mycode"><code class="language-javascript">
+  function collinearity( x1,y1, x2,y2 ) {
+    if (x1 === 0) {
+      if (y1 === 0) return true;
+      return x2 === 0 ? true : false;
+    }
+    if (x2 === 0) {
+      if (y2 ===0) return true;
+      return false;
+    }
+    if (y2 === 0) return y1 === 0 ? true : false;
+    return (x1 / y1) === (x2 / y2) ? true : false;
+  }
+        </code></pre>
+      </section>
+
+      <section class="languages">
+        <div class="anchor" id="id-langs"></div>
+        <h3 class="left-section-title">Languages</h3>
+        <ul>
+          <li>
+            <p class="language-item"><strong>Russian:</strong> Native</p>
+          </li>
+          <li>
+            <p class="language-item"><strong>Belorussian:</strong> ~Native</p>
+          </li>
+          <li>
+            <p class="language-item"><strong>English:</strong> between C1 and C2
+              <a class="right-section-link" href="https://cert.efset.org/iNtydG" target="_blank"
+                rel="noreferrer noopener" title="but i think they overestimated me">efset.org</a>
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="experience">
+        <div class="anchor" id="id-pastj"></div>
+        <h3 class="left-section-title">Experience</h3>
+        <ul>
+          <li>
+            <p class="experience-list-item"><strong>2023-present:</strong> freelance / unemployed</p>
+          </li>
+          <li>
+            <p class="experience-list-item"><strong>2012-2023: "Medal studio Sens"</strong><br>as
+              <strong>assembler</strong>
+              first (work mainly with hands)
+              and later as <strong>CNC machine operator</strong><br>
+              (laser engraver(3d), milling machine, 3D printers, UV curing printer)
+              <br>softwares: ArtCam, CorelDraw, AutoCAD, and each CNC machine specific control software
+            </p>
+          </li>
+          <li>
+            <p class="experience-list-item"><strong>1997-2010: "Institute Belgosproect"</strong><br>
+              as <strong>technical-draftsman</strong>:<br>softwares like CorelDraw, AutoCad, 3DMax etc.
+              <small>(mainly AutoCAD)</small>
+            </p>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <footer class="footer centainer">
+    <a class="footer-link" href="https://github.com/DenisKarev">&copy; Denis Karev</a>
+    <p>2024</p>
+    <a class="footer-rssch-link" href="https://rs.school/courses/javascript-ru" target="_blank"
+      rel="noreferrer noopener" title="GitHub.com">
+      <img src="./img/svg/rs_school_js_black.svg" alt="RS_Shool logo" height="36" width="100">
+    </a>
+  </footer>
+  <!-- </div> -->
+  <script src="./js/highlight.min.js" defer></script>
 </body>
+
 </html>

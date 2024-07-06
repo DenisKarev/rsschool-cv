@@ -1,0 +1,283 @@
+@import "./modern-normalize.min.css";
+@import "./atom-one-dark.min.css";
+
+@font-face {
+  font-family: "Poppins";
+  font-display: swap;
+  src: url("../fonts/Poppins-VariableFont_wght.otf") format("woff2");
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+:root {
+  --primary: black;
+  --secondary: #ffbc59;
+  --tetriary: orangered;
+  /* --h1: 42px; */
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+div::selection,
+p::selection,
+span::selection,
+small::selection,
+strong::selection,
+li::selection,
+summary::selection,
+a::selection {
+  background-color: #e2b97b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
+  height: 100%;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Poppins", "Arial", "Helvetica", sans-serif;
+  /* height: 100%; */
+  /* background-image: linear-gradient(0.5turn, grey, 3rem, grey, 3rem, red); */
+}
+
+img {
+  display: block;
+}
+
+/* .wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* center + container */
+.centainer {
+  max-width: 1024px;
+  min-width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  line-height: 3rem;
+  background: var(--secondary);
+  z-index: 2;
+}
+
+.nav_list {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: flex-end;
+  padding: 0 0.2rem;
+}
+
+.nav_item {
+  /* line-height: 3rem; */
+  height: 100%;
+}
+
+.nav_link {
+  /* line-height: 3rem; */
+  text-decoration: none;
+  color: black;
+  padding: 0.6rem;
+  transition: 0.2s ease-in-out;
+}
+
+.nav_link:hover {
+  background-color: var(--tetriary);
+}
+
+.main {
+  display: flex;
+  border-right: 1px dashed var(--secondary);
+}
+
+.anchor {
+  position: relative;
+  top: -3rem;
+}
+
+.anchor-about {
+  position: relative;
+  top: -7rem;
+}
+
+.left-section {
+  background-color: var(--secondary);
+  min-width: 19.5rem;
+  font-weight: 200;
+  /* padding-bottom: 10rem; */
+}
+
+.contact,
+.education,
+.skills {
+  margin-left: 3rem;
+  line-height: 2;
+}
+
+.left-section-photo {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+  z-index: 1;
+}
+
+.left-section-title {
+  margin-top: 2rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.contact-list-item {
+  max-width: max-content;
+}
+
+.contact-list-item-link {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.2s ease-in-out;
+  padding: 0 0.4rem;
+}
+
+.contact-list-item-link:hover {
+  background-color: var(--tetriary);
+}
+
+.skills-list-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--primary);
+  margin-right: 3rem;
+}
+
+.skills-list-dots {
+  position: relative;
+  top: -0.1rem;
+  font-size: 180%;
+  line-height: 1.1;
+}
+
+.details-soft {
+  width: 100%;
+}
+
+.details-soft-list-item {
+  width: 100%;
+  font-size: 0.8rem;
+  padding-left: 1rem;
+}
+
+.stress {
+  top: unset;
+  bottom: -0.7rem;
+}
+
+.right-section {
+  font-weight: 200;
+  margin-left: 4rem;
+  /* margin-right: 4rem; */
+  padding-bottom: 6rem;
+}
+
+.right-section-link {
+  color: var(--primary);
+  transition: 0.2s;
+}
+
+.right-section-link:hover {
+  color: var(--secondary);
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 6rem;
+}
+
+.about,
+.projects,
+.code,
+.languages,
+.experience {
+  margin-right: 4rem;
+}
+
+.mycode {
+  font-size: 0.8rem;
+}
+
+.self-description-title {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.self-description-text-container {
+  margin-top: 2rem;
+}
+
+.self-description-text {
+  text-indent: 2rem;
+  margin-top: 0.5rem;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.projects-list-item,
+.language-item,
+.experience-list-item {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  background-color: var(--secondary);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+}
+
+.footer-link {
+  padding: 0 0.6rem;
+  text-decoration: none;
+  line-height: 1.8;
+  color: var(--primary);
+  transition: 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.footer-rssch-link {
+  padding: 0.2rem;
+  transition: 0.2s ease-in-out;
+  border: 2px dashed transparent;
+}
+
+.footer-rssch-link:hover {
+  border: 2px dashed var(--primary);
+}
