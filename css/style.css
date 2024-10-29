@@ -136,6 +136,11 @@ img {
   z-index: 1;
 }
 
+.left-section-photo > img {
+  width: 100%;
+  aspect-ratio: 420 / 540;
+}
+
 .left-section-title {
   margin-top: 2rem;
   margin-bottom: 0.4rem;
